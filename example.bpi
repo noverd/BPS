@@ -1,0 +1,5 @@
+[BotPack]
+NAME=Example
+ENV=python3
+DIR=example
+START=start-example.sh
