@@ -19,8 +19,8 @@ class BSP:
             os.system("pip install --upgrade pip")
             os.system(f"pip install {self.libs}")
             os.system("deactivate")
-        os.chdir(f"usr/share/bps")
-        file = open(f"installed.txt", "a")
+        os.chdir("usr/share/bps")
+        file = open("installed.txt", "a")
         file.write(self.name + self.dir)
 
 
